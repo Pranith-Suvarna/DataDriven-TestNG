@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-14T00:52:26 IST" name="Suite" finished-at="2022-04-14T00:52:43 IST" duration-ms="17185">
+    <groups>
+    </groups>
+    <test started-at="2022-04-14T00:52:26 IST" name="Test" finished-at="2022-04-14T00:52:43 IST" duration-ms="17185">
+      <class name="datadriven.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:datadriven.LoginTest@3232a28a]" started-at="2022-04-14T00:52:26 IST" name="setup" finished-at="2022-04-14T00:52:28 IST" duration-ms="2277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:datadriven.LoginTest@3232a28a]" started-at="2022-04-14T00:52:29 IST" name="loginTest" data-provider="LoginData" finished-at="2022-04-14T00:52:39 IST" duration-ms="9394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourstore.com ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[FAIL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="writeResult(org.testng.ITestResult)[pri:0, instance:datadriven.LoginTest@3232a28a]" started-at="2022-04-14T00:52:39 IST" name="writeResult" finished-at="2022-04-14T00:52:39 IST" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:datadriven.LoginTest@3232a28a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeResult -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:datadriven.LoginTest@3232a28a]" started-at="2022-04-14T00:52:39 IST" name="loginTest" data-provider="LoginData" finished-at="2022-04-14T00:52:40 IST" duration-ms="1210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@yourstore.com ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adm]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PASS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="writeResult(org.testng.ITestResult)[pri:0, instance:datadriven.LoginTest@3232a28a]" started-at="2022-04-14T00:52:40 IST" name="writeResult" finished-at="2022-04-14T00:52:40 IST" duration-ms="88" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:datadriven.LoginTest@3232a28a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeResult -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:datadriven.LoginTest@3232a28a]" started-at="2022-04-14T00:52:40 IST" name="loginTest" data-provider="LoginData" finished-at="2022-04-14T00:52:42 IST" duration-ms="1197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adm@yourstore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PASS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="writeResult(org.testng.ITestResult)[pri:0, instance:datadriven.LoginTest@3232a28a]" started-at="2022-04-14T00:52:42 IST" name="writeResult" finished-at="2022-04-14T00:52:42 IST" duration-ms="64" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:datadriven.LoginTest@3232a28a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeResult -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:datadriven.LoginTest@3232a28a]" started-at="2022-04-14T00:52:42 IST" name="loginTest" data-provider="LoginData" finished-at="2022-04-14T00:52:43 IST" duration-ms="1207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adm@yourstore.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adm]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PASS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="writeResult(org.testng.ITestResult)[pri:0, instance:datadriven.LoginTest@3232a28a]" started-at="2022-04-14T00:52:43 IST" name="writeResult" finished-at="2022-04-14T00:52:43 IST" duration-ms="75" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:datadriven.LoginTest@3232a28a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:datadriven.LoginTest@3232a28a]" started-at="2022-04-14T00:52:43 IST" name="tearDown" finished-at="2022-04-14T00:52:43 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- datadriven.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
